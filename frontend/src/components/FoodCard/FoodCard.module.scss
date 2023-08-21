@@ -1,0 +1,39 @@
+@import "../../styles/variable";
+
+.block {
+    width: 320px;
+    height: 130px;
+    padding: 16px;
+    padding: 16px;
+    border: 1px solid $light-white;
+    border-radius: 8px;
+}
+
+.blockInfo{
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    align-items: center;
+    &:not(:last-child){
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+}
+
+.type {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: $light-red;
+}
+
+.date {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: $gray;
+}
