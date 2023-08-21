@@ -1,0 +1,37 @@
+@import "../../../styles/variable";
+
+.checkBox{
+    font-size: 12px;
+    padding: 3px 16px;
+    font-weight: 400;
+    line-height: 16px;
+    font-weight: 400;
+    border-radius: 15px;
+    color: $gray;
+}
+
+.count {
+    font-weight: 600;
+}
+
+.active {
+    color: $light-black;
+
+}
+
+
+.count {
+    margin-left: 4px;
+}
+
+.red{
+    background: $light-red;
+}
+
+.yellow {
+    background: $light-yellow;
+}
+
+.green {
+    background: $light-green;
+}
