@@ -1,0 +1,12 @@
+@import "../../../../styles/variable";
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 16px;
+    cursor: default;
+    &:hover {
+        background: $light-white;
+        cursor: pointer;
+    }
+}
