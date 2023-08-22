@@ -9,7 +9,6 @@ import { IPick } from "./Pick.interface";
 import selectStyles from "./Pick.styles";
 
 const Pick = ({ data, handleFunc, value }: IPick) => {
-	console.log(value);
 	return (
 		<Select
 			value={value}

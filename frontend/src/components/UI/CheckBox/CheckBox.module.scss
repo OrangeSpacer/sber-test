@@ -1,6 +1,9 @@
 @import "../../../styles/variable";
 
 .checkBox{
+    display: flex;
+    align-items: center;
+    height: fit-content;
     font-size: 12px;
     padding: 3px 16px;
     font-weight: 400;
@@ -8,6 +11,9 @@
     font-weight: 400;
     border-radius: 15px;
     color: $gray;
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 .count {

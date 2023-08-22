@@ -1,7 +1,7 @@
 @import "../../styles/variable";
 
 .block {
-    width: 320px;
+    width: 288px;
     height: 130px;
     padding: 16px;
     padding: 16px;
@@ -36,4 +36,10 @@
     font-weight: 400;
     line-height: 16px;
     color: $gray;
+}
+
+@media screen and (max-width: 340px) {
+    .block {
+        width: auto;
+    }
 }

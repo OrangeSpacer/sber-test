@@ -1,0 +1,28 @@
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 21px;
+}
+
+.blockBtns {
+    display: flex;
+    gap: 0 12px;
+}
+
+@media screen and (max-width: 1100px) {
+    .blockSelect {
+        padding-right: 40px;
+    }
+}
+
+
+@media screen and (max-width: 475px) {
+    .block{
+        flex-direction: column;
+        gap: 8px;
+    }
+    .blockSelect{
+        padding-right: 0;
+    }
+}
