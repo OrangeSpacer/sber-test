@@ -1,0 +1,38 @@
+.main {
+    width: 1008px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.itemsBlock {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    gap: 16px;
+}
+
+@media screen and (max-width: 1008px) {
+    .itemsBlock {
+        grid-template-columns: repeat(2, 320px);
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .itemsBlock {
+        grid-template-columns: repeat(1, 320px);
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .titleBlock {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .itemsBlock {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
