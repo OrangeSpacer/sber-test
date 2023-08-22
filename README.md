@@ -20,6 +20,13 @@
     - Eslint
     - Prettier
 
+# Тестирование
+- unit
+    - vitest
+    - react-testing-library
+- e2e
+    - cypress
+
 # Как запусить проект
 1. Перейти в папку frontend
 2. `yarn dev` - инициализирует файлы для фронтенда(для этого нужно находится в папке frontend)
