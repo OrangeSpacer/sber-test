@@ -15,6 +15,7 @@ const CheckBox = ({ colorType, handleFunc, text, itemsCount }: ICheckBox) => {
 
 	return (
 		<div
+			data-testid="checkBox"
 			className={cn(styles.checkBox, {
 				[styles.active]: active === true,
 				[styles.red]: colorType === "red",
@@ -24,7 +25,11 @@ const CheckBox = ({ colorType, handleFunc, text, itemsCount }: ICheckBox) => {
 			onClick={handleActive}
 		>
 			{text}
-			{itemsCount ? <span className={styles.count}>{itemsCount}</span> : null}
+			{itemsCount ? (
+				<span data-testid="itemsCount" className={styles.count}>
+					{itemsCount}
+				</span>
+			) : null}
 		</div>
 	);
 };

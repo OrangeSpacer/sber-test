@@ -13,7 +13,7 @@ import styles from "./Filters.module.scss";
 
 const Filters = ({ handleSortChange, sortOrder, toggleFilter, filtersData }: IFilters) => {
 	return (
-		<div className={styles.block}>
+		<div data-testid="filtersBlock" className={styles.block}>
 			<div className={styles.blockBtns}>
 				{filtersData.map((filter) => (
 					<CheckBox

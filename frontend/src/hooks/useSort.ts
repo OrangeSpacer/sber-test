@@ -19,7 +19,6 @@ export function useSort(initialSortOrder: { value: string; label: string }) {
 		return [...data].sort((a, b) => {
 			const dateA = parseDate(a.date);
 			const dateB = parseDate(b.date);
-			console.log(dateA.getFullYear(), dateB.getFullYear());
 			if (sortOrder.value == "сначала новые") {
 				return dateA.getTime() - dateB.getTime();
 			} else {
