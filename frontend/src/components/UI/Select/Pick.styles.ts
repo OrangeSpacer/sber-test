@@ -4,7 +4,7 @@ import { CSSObjectWithLabel } from "react-select";
 const selectStyles = {
 	control: (baseStyles: CSSObjectWithLabel) => ({
 		...baseStyles,
-		width: "160px",
+		width: "180px",
 		border: "none",
 		fontSize: "16px",
 		fontWeight: "400",
