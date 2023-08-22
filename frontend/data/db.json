@@ -1,0 +1,8 @@
+{
+    "data": [
+        {"id": 1, "type": "пицца","imgPath": "./img/pizza.png","title":"двойная пепперони", "date": "13.04.2023"},
+        {"id": 2, "type": "суши","imgPath": "./img/sushi.png","title":"текка маки", "date": "12.04.2023"},
+        {"id": 3, "type": "бургеры","imgPath": "./img/burger.png","title":"чизбургер", "date": "11.04.2023"},
+        {"id": 4, "type": "суши","imgPath": "./img/sushi.png","title":"сашими", "date": "10.04.2023"}
+    ]
+}
