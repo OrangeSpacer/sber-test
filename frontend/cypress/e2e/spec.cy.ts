@@ -28,9 +28,9 @@ describe("template spec", () => {
 	});
 	it("should sorted for date", () => {
 		cy.visit("http://127.0.0.1:5173/");
-		cy.get('[data-testid="date"]').first().should("have.text", "10.04.2023");
+		cy.get('[data-testid="date"]').first().should("have.text", "13.04.2023");
 		cy.get("input").first().click();
 		cy.contains("сначала старые").click();
-		cy.get('[data-testid="date"]').first().should("have.text", "13.04.2023");
+		cy.get('[data-testid="date"]').first().should("have.text", "10.04.2023");
 	});
 });

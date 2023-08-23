@@ -20,9 +20,9 @@ export function useSort(initialSortOrder: { value: string; label: string }) {
 			const dateA = parseDate(a.date);
 			const dateB = parseDate(b.date);
 			if (sortOrder.value == "сначала новые") {
-				return dateA.getTime() - dateB.getTime();
-			} else {
 				return dateB.getTime() - dateA.getTime();
+			} else {
+				return dateA.getTime() - dateB.getTime();
 			}
 		});
 	};
